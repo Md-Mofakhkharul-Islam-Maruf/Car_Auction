@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Vintage Leather Briefcase",
+        "description": "A classic brown leather briefcase from the 1950s, excellent condition.",
+        "currentBidPrice": 150.00,
+        "timeLeft": "2h 30m",
+        "bidsCount": 12,
+        "image": "briefcase.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Signed First Edition Novel",
+        "description": "Limited edition of 'The Silent Star' signed by the author.",
+        "currentBidPrice": 85.50,
+        "timeLeft": "1d 15h",
+        "bidsCount": 5,
+        "image": "novel.png"
+    },
+    {
+        "id": 3,
+        "title": "Antique Map of Europe",
+        "description": "A beautifully detailed, hand-colored map printed in 1888.",
+        "currentBidPrice": 320.00,
+        "timeLeft": "5d 08h",
+        "bidsCount": 21,
+        "image": "map.webp"
+    },
+    {
+        "id": 4,
+        "title": "Smart Fitness Watch (New)",
+        "description": "Latest model fitness tracker with heart rate monitor and GPS.",
+        "currentBidPrice": 99.99,
+        "timeLeft": "3h 05m",
+        "bidsCount": 18,
+        "image": "watch.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Collectible Coin Set",
+        "description": "Set of 10 rare coins from various countries and eras.",
+        "currentBidPrice": 450.00,
+        "timeLeft": "1w 2d",
+        "bidsCount": 9,
+        "image": "coins.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Handmade Ceramic Vase",
+        "description": "Unique, abstract design ceramic vase, signed by the artist.",
+        "currentBidPrice": 65.00,
+        "timeLeft": "12h 45m",
+        "bidsCount": 7,
+        "image": "vase.png"
+    }
+]
