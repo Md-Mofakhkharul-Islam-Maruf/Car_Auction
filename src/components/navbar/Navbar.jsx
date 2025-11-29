@@ -6,8 +6,8 @@ const Navbar = () => {
 
             {/* LEFT: Logo */}
             <div className="flex items-center">
-                <a className="text-2xl font-semibold whitespace-nowrap">
-                    Car <span className="text-teal-600">A</span>uctio<span className="text-teal-600">n</span>
+                <a className="text-3xl font-semibold whitespace-nowrap">
+                    Auction <span className="text-teal-600">G</span>aller<span className="text-teal-600">y</span>
                 </a>
             </div>
 
