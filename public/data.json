@@ -6,7 +6,7 @@
         "currentBidPrice": 150.00,
         "timeLeft": "2h 30m",
         "bidsCount": 12,
-        "image": "briefcase.jpg"
+        "image": "./assets/Bid1-min.png"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "currentBidPrice": 85.50,
         "timeLeft": "1d 15h",
         "bidsCount": 5,
-        "image": "novel.png"
+        "image": "./assets/Bid2-min.png"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "currentBidPrice": 320.00,
         "timeLeft": "5d 08h",
         "bidsCount": 21,
-        "image": "map.webp"
+        "image": "./assets/Bid3-min.png"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "currentBidPrice": 99.99,
         "timeLeft": "3h 05m",
         "bidsCount": 18,
-        "image": "watch.jpeg"
+        "image": "./assets/Bid4-min.png"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "currentBidPrice": 450.00,
         "timeLeft": "1w 2d",
         "bidsCount": 9,
-        "image": "coins.jpg"
+        "image": "./assets/Bid5-min.png"
     },
     {
         "id": 6,
@@ -51,6 +51,6 @@
         "currentBidPrice": 65.00,
         "timeLeft": "12h 45m",
         "bidsCount": 7,
-        "image": "vase.png"
+        "image": "./assets/Bid6-min.png"
     }
 ]
