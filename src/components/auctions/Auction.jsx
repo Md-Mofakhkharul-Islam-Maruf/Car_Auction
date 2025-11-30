@@ -50,6 +50,9 @@ const Auction = () => {
                         </tbody>
                     </table>
                 </div>
+                <div className="w-2/6">
+                            hello
+                </div>
             </div>
         </div>
     );
