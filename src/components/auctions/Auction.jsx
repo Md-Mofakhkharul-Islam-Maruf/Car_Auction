@@ -45,6 +45,7 @@ const Auction = () => {
                                             <IoIosHeartEmpty size={25} />
                                         </button>
                                     </td>
+                                    <td>g</td>
                                 </tr>
                             ))}
                         </tbody>
