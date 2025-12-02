@@ -43,10 +43,11 @@ const Auction = () => {
                 </div>
 
                 <div className="w-2/6">
-                <p>{secondDiv.id}</p>
+                <p>{id}</p>
                 <p>{currentBidPrice}</p>
                 <p>{timeLeft}</p>
                 <img src={image} alt="" />
+                <p>{title}</p>
                 </div>
             </div>
         </div>
