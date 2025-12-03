@@ -20,7 +20,11 @@ const Auction = () => {
             setFavorite([...favorite, bid])
         }
     }
-
+    
+    const handleRemove=(id)=>{
+        const finalId = favorite.filter(existingObject => existingObject.id!== id)
+        setFavorite(finalId)
+    }
     return (
         <div className="min-h-screen py-10 space-y-4">
             <div className="flex flex-col items-center justify-center gap-3.5 ">
@@ -60,8 +64,8 @@ const Auction = () => {
                     </div>
                     <hr className="text-blue-500 md:mt-2" />
 
-                    {favorite ? (favorite.map(fav => (
-                        <div className="flex items-center gap-4 bg-gray-100 p-3 rounded-lg shadow m-2">
+                    {favorite.length > 0 ? (favorite.map(fav => (
+                        <div className="flex items-center gap-4 bg-gray-100 p-1 rounded-lg shadow m-2">
                             <img className="w-24 h-20 object-cover rounded" src={fav.image} alt="" />
                             <div className="flex-1">
                                 <h3 className="font-semibold">{fav.title}</h3>
@@ -73,7 +77,7 @@ const Auction = () => {
                                 </p>
                             </div>
 
-                            <button className="text-red-500 hover:text-red-700">
+                            <button onClick={()=>handleRemove(fav.id)} className="text-red-500 hover:text-red-700">
                                 <RxCross1 size={20} />
                             </button>
                         </div>
