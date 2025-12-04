@@ -59,7 +59,7 @@ const Navbar = () => {
                         <div className="w-10 rounded-full">
                             <img
                                 alt="Profile"
-                                src="https://scontent.fdac207-1.fna.fbcdn.net/v/t39.30808-1/574109420_122221833776109883_6960769695475586517_n.jpg?stp=c0.0.769.769a_dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=kPTEEm06C4wQ7kNvwHK1WAx&_nc_oc=AdlCXwERqD4boOx8uHiw_ePD4o5JX2y3Iv4fK5Nz9IlrbBK-r8bWOeT_YIXymS6ICI4&_nc_zt=24&_nc_ht=scontent.fdac207-1.fna&_nc_gid=DMr-asf9nRGxsTuZrhDtGA&oh=00_AfjZ-_e3Bs2jTL6v3d42_0ygdBEKsOJaQc26GAfgjHhZqA&oe=692F7209"
+                                src="https://www.facebook.com/photo/?fbid=122221833764109883&set=a.122221833800109883"
                             />
                         </div>
                     </div>
