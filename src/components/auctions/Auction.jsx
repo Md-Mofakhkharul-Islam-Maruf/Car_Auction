@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Tr from "../tr/Tr";
 import { CiHeart } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Auction = () => {
     const [bids, setBids] = useState([]);
@@ -19,12 +21,17 @@ const Auction = () => {
         const exists = favorite.find((item) => item.id === bid.id);
         if (!exists) {
             setFavorite([...favorite, bid]);
+            toast.success(`${bid.title} added to favorites!`);
+        } else {
+            toast.info(`${bid.title} is already in favorites`);
         }
     };
 
     // Remove from favorite
     const handleRemove = (id) => {
+        const removedItem = favorite.find((item) => item.id === id);
         setFavorite(favorite.filter((item) => item.id !== id));
+        toast.error(`${removedItem.title} removed from favorites`);
     };
 
     // Calculate total bids amount from favorite array
@@ -35,6 +42,9 @@ const Auction = () => {
 
     return (
         <div className="min-h-screen py-10 space-y-4">
+            {/* Toast Container */}
+            <ToastContainer position="top-right" autoClose={2000} />
+
             <div className="flex flex-col items-center justify-center gap-3.5">
                 <h2 className="text-4xl font-bold">Active Auctions</h2>
                 <p className="text-gray-600">Discover and bid on extraordinary items</p>
